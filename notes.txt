@@ -1,0 +1,7 @@
+Spider-Man Tribute Page Notes:
+- 3 columns, 2 rows for a total of 6 Spider-Men
+- Amazing Spider-Man, Superior Spider-Man, Noir Spider-Man, Spider-Man 2099, Ultimate Spider-Man (Miles Morales), and Black Suit Spider-Man
+- When a Spider-Man tile is clicked on, the header/footer transitions to that Spider-Man's colors
+- Each tile will give a brief synopsis of the Spider-Man
+- Link at the bottom directing users to the Marvel database
+- blue/red/white/black color palette
