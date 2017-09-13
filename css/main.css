@@ -16,7 +16,8 @@ Main Styles
 	background-color: #354791;
 	color: #E6E6E6;
 	display: block;
-	font-family: 'Open Sans 400', sans-serif;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 400;
 	line-height: 1.35em;
 	margin: 0 auto;
 	width: 100%;
@@ -86,8 +87,9 @@ ul {
 }
 
 .spider-man p {
-	font-family: 'Open Sans 700', sans-serif;
-	padding-top:  8px;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	padding-top: 8px;
 	text-align: center;
 }
 
@@ -140,6 +142,7 @@ Modal Styles
 	color: #CE3F38;
 	text-align: center;
 	font-size: 2em;
+	font-weight: 800;
 	margin-bottom: 20px;
 }
 
@@ -179,8 +182,9 @@ Modal Styles
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
-        width: 100%;
+        width: 85%;
     }
+
 }
 
 
