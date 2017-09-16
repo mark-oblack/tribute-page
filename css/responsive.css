@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 100% Image Width on Smaller Screens */
+
+@media all and (min-width: 37.5em) {
+	.spider-man {
+		width: 49%;
+	}
+}
+
+@media all and (min-width: 53.75em) {
+	#main-header {
+		background-color: #CE3F38;
+	}
+	
+	#main-header img {
+		width: 75%;
+		
+	}
+	
+	.spider-man {
+		width: 32%;
+	}
+	
+	.spider-pic {
+		padding: 7px;
+	}
+	
+	.modal-content {
+		width: 70%;
+	}
+}
+
+@media all and (min-width: 62.5em) {
+	.spider-man {
+		width: 33%;
+	}
+	
+	.modal-content {
+		width: 55%;
+	}
+}
+
+

@@ -25,7 +25,7 @@ Main Styles
 
 #main-content {
 	margin: 0 auto;
-	width: 90%;
+	width: 80%;
 }
 
 #main-footer {
@@ -36,7 +36,7 @@ Main Styles
 }
 
 #main-footer p {
-		padding-bottom: 10px;
+		padding-bottom: 5px;
 }
 
 #main-footer p:first-child {
@@ -74,7 +74,7 @@ ul {
 
 .spider-man {
 	display: inline-block;
-	width: 33%;
+	width: 100%;
 	padding-bottom: 20px;
 }
 
@@ -94,14 +94,6 @@ ul {
 }
 
 
-
-/*-------------------------------------
-Spider-Man Bio Styles
--------------------------------------*/
-
-.spider-bio {
-	color: #354791;
-}
 
 /*-------------------------------------
 Modal Styles
@@ -135,13 +127,18 @@ Modal Styles
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 50%
+	line-height: 1.35em;
+	width: 80%;
+}
+
+.modal-content p {
+	margin: 0 auto;
+	padding: 0 10px 5px 10px;
 }
 
 .modal-title {
-	color: #CE3F38;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 800;
 	margin-bottom: 20px;
 }
@@ -165,7 +162,7 @@ Modal Styles
 }
 
 .close {
-    color: #aaaaaa;
+    color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -179,17 +176,60 @@ Modal Styles
 	cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 85%;
-    }
 
+
+/*-------------------------------------
+Modal Spider-Man Themes
+-------------------------------------*/
+
+
+#amazing-modal .modal-content {
+	color: #354791;
 }
 
+#amazing-modal .modal-title {
+	color: #CE3F38;
+}
 
+#superior-modal .modal-content {
+	color: #0E0E0E;
+}
 
+#superior-modal .modal-title {
+	color: #CE3F38;
+}
 
+#noir-modal .modal-content {
+	color: #6E6E6E;
+}
+
+#noir-modal .modal-title {
+	color: #0E0E0E;
+}
+
+#spidey2099-modal .modal-content {
+	color: #CE3F38;
+}
+
+#spidey2099-modal .modal-title {
+	color: #354791;
+}
+
+#ultimate-modal .modal-content {
+	color: #CE3F38;
+}
+
+#ultimate-modal .modal-title {
+	color: #0E0E0E;
+}
+
+#symbiote-modal .modal-content {
+	color: #0E0E0E;
+}
+
+#symbiote-modal .modal-title {
+	color: #0E0E0E;
+}
 
 
 
